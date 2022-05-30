@@ -15,9 +15,8 @@ import javax.persistence.OneToOne;
 
 import com.icin.accountdtls.model.Account;
 
-import lombok.Data;
 
-@Data
+
 @Entity
 public class User {
 	@Id

@@ -18,9 +18,7 @@ import javax.persistence.OneToOne;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.icin.accountdtls.model.Account;
 
-import lombok.Data;
 
-@Data
 @Entity
 public class UserDtls {
 	@Id
